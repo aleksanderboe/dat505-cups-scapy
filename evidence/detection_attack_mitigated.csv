@@ -1,0 +1,2 @@
+time,severity,rule,src,dst,detail,packet
+2026-10-22T23:52:08,HIGH,UDP631_UNKNOWN_URI,127.0.0.1,127.0.0.1,Browse packet advertises non-allowlisted URI host 'host.docker.internal',{}

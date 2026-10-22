@@ -1,0 +1,218 @@
+E [22/Oct/2026:19:37:47 +0000] Unknown directive IdleExitTimeout on line 32 of /etc/cups/cupsd.conf.
+E [22/Oct/2026:19:41:27 +0000] [Client 3] Request from "192.168.65.1" using invalid Host: field "localhost:631".
+E [22/Oct/2026:19:41:28 +0000] [Client 4] Request from "192.168.65.1" using invalid Host: field "localhost:631".
+E [22/Oct/2026:19:41:28 +0000] [Client 5] Request from "192.168.65.1" using invalid Host: field "localhost:631".
+E [22/Oct/2026:19:43:16 +0000] [Client 6] Request from "192.168.65.1" using invalid Host: field "localhost:631".
+E [22/Oct/2026:19:43:16 +0000] [Client 7] Request from "192.168.65.1" using invalid Host: field "localhost:631".
+E [22/Oct/2026:19:43:16 +0000] [Client 8] Request from "192.168.65.1" using invalid Host: field "localhost:631".
+E [22/Oct/2026:19:53:23 +0000] [Client 10] Request from "192.168.65.1" using invalid Host: field "localhost:631".
+E [22/Oct/2026:20:04:31 +0000] Unknown directive IdleExitTimeout on line 32 of /etc/cups/cupsd.conf.
+W [22/Oct/2026:20:41:43 +0000] CreateProfile failed: org.freedesktop.DBus.Error.ServiceUnknown:The name org.freedesktop.ColorManager was not provided by any .service files
+W [22/Oct/2026:20:41:43 +0000] CreateProfile failed: org.freedesktop.DBus.Error.ServiceUnknown:The name org.freedesktop.ColorManager was not provided by any .service files
+W [22/Oct/2026:20:41:43 +0000] CreateDevice failed: org.freedesktop.DBus.Error.ServiceUnknown:The name org.freedesktop.ColorManager was not provided by any .service files
+E [22/Oct/2026:20:45:19 +0000] [Job 1] Job stopped due to filter errors; please consult the /var/log/cups/error_log file for details.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] The following messages were recorded from 20:45:02 to 20:45:19
+D [22/Oct/2026:20:45:19 +0000] [Job 1] -----------------
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Spooler: cups
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Printer: Printer_host_docker_internal
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Shell: /bin/bash
+D [22/Oct/2026:20:45:19 +0000] [Job 1] PPD file: /etc/cups/ppd/Printer_host_docker_internal.ppd
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ATTR file: 
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Printer model: HP 0.00, driverless, 2.1b1
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Job title: Test Page
+D [22/Oct/2026:20:45:19 +0000] [Job 1] File(s) to be printed:
+D [22/Oct/2026:20:45:19 +0000] [Job 1] <STDIN>
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Ghostscript extra search path (\'GS_LIB\'): /usr/share/cups/fonts
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Printing system options:
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Pondering option \'job-priority=50\'
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Unknown option job-priority=50.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Pondering option \'job-uuid=urn:uuid:7fe89f9f-d145-3551-7943-53a0cc90e693\'
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Unknown option job-uuid=urn:uuid:7fe89f9f-d145-3551-7943-53a0cc90e693.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Pondering option \'cups-browsed\'
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Unknown boolean option \"cups-browsed\".
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Pondering option \'job-originating-user-name=anonymous\'
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Unknown option job-originating-user-name=anonymous.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Pondering option \'job-originating-host-name=localhost\'
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Unknown option job-originating-host-name=localhost.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Pondering option \'date-time-at-creation=\'
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Unknown option date-time-at-creation=.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Pondering option \'date-time-at-processing=\'
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Unknown option date-time-at-processing=.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Pondering option \'time-at-creation=1792701902\'
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Unknown option time-at-creation=1792701902.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Pondering option \'time-at-processing=1792701902\'
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Unknown option time-at-processing=1792701902.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Pondering option \'job-impressions-completed=0\'
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Unknown option job-impressions-completed=0.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Streaming Mode: Off
+D [22/Oct/2026:20:45:19 +0000] [Job 1] CM Color Calibration Mode in CUPS: Off
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Options from the PPD file:
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ================================================
+D [22/Oct/2026:20:45:19 +0000] [Job 1] File: <STDIN>
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ================================================
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterChain: bannertopdf (PID 52) started.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Set job-printer-state-message to "cfFilterChain: bannertopdf (PID 52) started.", current level=INFO
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterBannerToPDF: Copying input to temp file \"/var/spool/cups/tmp/000346ae7c83d\"
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Pipes for back and side channels opened
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterChain: Running filter: Filters
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Set job-printer-state-message to "cfFilterChain: Running filter: Filters", current level=INFO
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterChain: Running filter: Backend
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Set job-printer-state-message to "cfFilterChain: Running filter: Backend", current level=INFO
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterChain: Filters (PID 53) started.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Set job-printer-state-message to "cfFilterChain: Filters (PID 53) started.", current level=INFO
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterChain: Backend (PID 54) started.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Set job-printer-state-message to "cfFilterChain: Backend (PID 54) started.", current level=INFO
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterUniversal: Converting from application/vnd.cups-pdf to application/vnd.cups-pdf
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterUniversal: Converting from application/vnd.cups-pdf to application/vnd.cups-pdf
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterUniversal: Final output format for job: application/vnd.cups-pdf
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterExternalCUPS: Setting CUPS-specific environment environment variables: CUPS_DATADIR, CUPS_SERVERBIN, CUPS_SERVERROOT, CUPS_STATEDIR, SOFTWARE, CONTENT_TYPE, FINAL_CONTENT_TYPE
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterExternalCUPS: Setting CUPS-specific environment environment variables: PRINTER, PPD, DEVICE_URI
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterExternalCUPS: Calling cfFilterExternal().
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[0]: CUPS_CACHEDIR=/var/cache/cups
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[1]: CUPS_DATADIR=/usr/share/cups
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[2]: CUPS_DOCROOT=/usr/share/doc/cups
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[3]: CUPS_REQUESTROOT=/var/spool/cups
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[4]: CUPS_SERVERBIN=/usr/lib/cups
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[5]: CUPS_SERVERROOT=/etc/cups
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[6]: CUPS_STATEDIR=/var/run/cups
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[7]: HOME=/var/spool/cups/tmp
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[8]: PATH=/usr/lib/cups/backend:/usr/lib/cups/filter:/usr/bin:/usr/sbin:/bin:/usr/bin
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[9]: SERVER_ADMIN=root@71472fc7a09a
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[10]: SOFTWARE=CUPS/2.4.7
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[11]: TMPDIR=/var/spool/cups/tmp
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[12]: USER=root
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[13]: CUPS_MAX_MESSAGE=2047
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[14]: CUPS_SERVER=/var/run/cups/cups.sock
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[15]: CUPS_ENCRYPTION=IfRequested
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[16]: IPP_PORT=631
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[17]: CHARSET=utf-8
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[18]: LANG=en_US.UTF-8
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[19]: PPD=/etc/cups/ppd/Printer_host_docker_internal.ppd
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[20]: CONTENT_TYPE=application/vnd.cups-pdf-banner
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[21]: DEVICE_URI=ipp://host.docker.internal:8631/printers/NAME
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[22]: PRINTER_INFO=Printer
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[23]: PRINTER_LOCATION=Office HQ
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[24]: PRINTER=ipp://host.docker.internal:8631/printers/NAME
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[25]: PRINTER_STATE_REASONS=none
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[26]: CUPS_FILETYPE=document
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[27]: FINAL_CONTENT_TYPE=application/vnd.cups-pdf
+D [22/Oct/2026:20:45:19 +0000] [Job 1] INFO: cfFilterChain: No filter at all in chain, passing through the data.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): envp[28]: AUTH_I****
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): argv[0]: ipp://host.docker.internal:8631/printers/NAME
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): argv[1]: 1
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): argv[2]: anonymous
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): argv[3]: Test Page
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): argv[4]: 1
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): argv[5]: copies=1 date-time-at-creation= date-time-at-processing= job-impressions-completed=0 job-originating-host-name=localhost job-originating-user-name=anonymous job-priority=50 job-uuid=urn:uuid:7fe89f9f-d145-3551-7943-53a0cc90e693 Resolution=600dpi time-at-creation=1792701902 time-at-processing=1792701902
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): /usr/lib/cups/backend/ipp (PID 55) started.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Set job-printer-state-message to "cfFilterExternal (ipp): /usr/lib/cups/backend/ipp (PID 55) started.", current level=INFO
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): Connected input file descriptor 21 to CUPS filter\'s stdin.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): Logging (PID 56) started.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Set job-printer-state-message to "cfFilterExternal (ipp): Logging (PID 56) started.", current level=INFO
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): Sending stdin for job...
+D [22/Oct/2026:20:45:19 +0000] [Job 1] STATE: +connecting-to-device
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): Looking up \"host.docker.internal\"...
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Filetype: PDF
+D [22/Oct/2026:20:45:19 +0000] [Job 1] PostScript option found: PageSize=Letter: \"<</PageSize[612 792]>>setpagedevice\"
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Driver does not understand PDF input, converting to PostScript
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Storing temporary files in /var/spool/cups/tmp
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterChain: bannertopdf completed with status 0.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterChain: bannertopdf (PID 52) exited with no errors.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Set job-printer-state-message to "cfFilterChain: bannertopdf (PID 52) exited with no errors.", current level=INFO
+D [22/Oct/2026:20:45:19 +0000] [Job 1] STATE: -connecting-to-device
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): host.docker.internal=192.168.65.254
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): backendWaitLoop(snmp_fd=18, addr=0x555555598be8, side_cb=0x55555555e421)
+D [22/Oct/2026:20:45:19 +0000] [Job 1] PID 49 (/usr/lib/cups/filter/universal) exited with no errors.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Starting process \"pdf-to-ps\" (generation 1)
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterLoadPPD: Color profile qualifier determined from job and PPD data \'RGB..300dpi\'
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterLoadPPD: No ICC profiles specified in PPD
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterLoadPPD: Searching for profile \"-/-\"...
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterLoadPPD: Last filter determined by the PPD: foomatic-rip; Final data MIME type: application/vnd.cups-postscript => PDF filter will log pages in page_log.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPDFToPS: Copying input to temp file \"/var/spool/cups/tmp/000396ae913bd\"
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPDFToPS: Printer make and model: HP 0.00, driverless, 2.1b1
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPDFToPS: Using image rendering resolution 300 dpi
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPDFToPS: Running command line for gs: gs -q -dNOPAUSE -dBATCH -dSAFER -dNOMEDIAATTRS -sstdout=%stderr -sDEVICE=ps2write -dShowAcroForm -sOUTPUTFILE=%stdout -dLanguageLevel=3 -r300 -dCompressFonts=false -dNoT3CCITT -dNOINTERPOLATE -c \'save pop\' -f /var/spool/cups/tmp/000396ae913bd
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPDFToPS: Started filter gs (PID 58)
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPDFToPS: Started filter pstops (PID 59)
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Page = 612x792; 18,12 to 594,780
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPSToPS: slow_collate=0, slow_duplex=0, slow_order=0
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPSToPS: Before copy_comments - %!PS-Adobe-3.0
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPSToPS: %!PS-Adobe-3.0
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPSToPS: %%Invocation: gs -q -dNOPAUSE -dBATCH -dSAFER -dNOMEDIAATTRS -sstdout=? -sDEVICE=ps2write -dShowAcroForm -sOUTPUTFILE=? -dLanguageLevel=3 -r300 -dCompressFonts=false -dNoT3CCITT -dNOINTERPOLATE ? ? -f ?
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPSToPS: %%BoundingBox: 0 0 612 792
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPSToPS: %%HiResBoundingBox: 0 0 612.00 792.00
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPSToPS: %%Creator: GPL Ghostscript 10000 (ps2write)
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPSToPS: %%LanguageLevel: 2
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPSToPS: %%CreationDate: D:20261022204503Z00\'00\'
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPSToPS: %%Pages: 1
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPSToPS: %%EndComments
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPSToPS: Before copy_prolog - %%BeginProlog
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Filetype: PostScript
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Starting process \"Check PostScript input non-empty\" (generation 1)
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPSToPS: Before copy_setup - %%Page: 1 1
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPSToPS: Before page loop - %%Page: 1 1
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPSToPS: Copying page 1...
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPSToPS: pagew = 576.0, pagel = 768.0
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPSToPS: bboxx = 0, bboxy = 0, bboxw = 612, bboxl = 792
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPSToPS: PageLeft = 18.0, PageRight = 594.0
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPSToPS: PageTop = 780.0, PageBottom = 12.0
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPSToPS: PageWidth = 612.0, PageLength = 792.0
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPDFToPS: PID 58 (gs) exited with no errors.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPSToPS: Wrote 1 pages...
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPDFToPS: PID 59 (pstops) exited with no errors.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] ppdFilterPDFToPS: Closing files ...
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Check PostScript input non-empty exited with status 141
+D [22/Oct/2026:20:45:19 +0000] [Job 1] File not empty, contains at least one page.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Reading PostScript input ...
+D [22/Oct/2026:20:45:19 +0000] [Job 1] --> This document is DSC-conforming!
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Found %RBINumCopies: 1
+D [22/Oct/2026:20:45:19 +0000] [Job 1] -----------
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Found: %%BeginProlog
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Inserting option code into \"Prolog\" section.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Found: %%EndProlog
+D [22/Oct/2026:20:45:19 +0000] [Job 1] -----------
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Found: %%BeginSetup
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Found: %%BeginFeature: *ColorModel RGB
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Option: ColorModel=RGB
+D [22/Oct/2026:20:45:19 +0000] [Job 1] --> Option will be set by PostScript interpreter
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Found: %%BeginFeature: *Duplex None
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Option: Duplex=None
+D [22/Oct/2026:20:45:19 +0000] [Job 1] --> Option will be set by PostScript interpreter
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Found: %%BeginFeature: *PageSize Letter
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Option: PageSize=Letter
+D [22/Oct/2026:20:45:19 +0000] [Job 1] --> Option will be set by PostScript interpreter
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Found: %%EndSetup
+D [22/Oct/2026:20:45:19 +0000] [Job 1] -----------
+D [22/Oct/2026:20:45:19 +0000] [Job 1] New page: %%Page: 1 1
+D [22/Oct/2026:20:45:19 +0000] [Job 1] \"Setup\" section is missing, inserting it.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Inserting option code into \"Setup\" section.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Found: %%BeginPageSetup
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Inserting option code into \"PageSetup\" section.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Flushing FIFO.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Starting renderer with command: \"echo 1 > /tmp/I_AM_VULNERABLE\"
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Starting process \"kid3\" (generation 1)
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Starting process \"kid4\" (generation 2)
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Starting process \"renderer\" (generation 2)
+D [22/Oct/2026:20:45:19 +0000] [Job 1] JCL: \033%-12345X@PJL
+D [22/Oct/2026:20:45:19 +0000] [Job 1] <job data> 
+D [22/Oct/2026:20:45:19 +0000] [Job 1] renderer exited with status 0
+D [22/Oct/2026:20:45:19 +0000] [Job 1] kid4 exited with status 0
+D [22/Oct/2026:20:45:19 +0000] [Job 1] kid3 finished
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Process is dying with \"Encountered error Broken pipe during fwrite\", exit stat 1
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Cleaning up...
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Killing pdf-to-ps
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Killing kid3
+D [22/Oct/2026:20:45:19 +0000] [Job 1] PID 50 (/usr/lib/cups/filter/foomatic-rip) stopped with status 1.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Hint: Try setting the LogLevel to "debug" to find out more.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterChain: Filters completed with status 0.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): Backend (PID 55) exited with no errors.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterChain: Filters (PID 53) exited with no errors.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterExternal (ipp): Logging (PID 56) exited with no errors.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterChain: Backend completed with status 0.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] cfFilterChain: Backend (PID 54) exited with no errors.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] Closed the pipes for back and side channels
+D [22/Oct/2026:20:45:19 +0000] [Job 1] PID 51 (/usr/lib/cups/backend/implicitclass) exited with no errors.
+D [22/Oct/2026:20:45:19 +0000] [Job 1] End of messages
+D [22/Oct/2026:20:45:19 +0000] [Job 1] printer-state=3(idle)
+D [22/Oct/2026:20:45:19 +0000] [Job 1] printer-state-message="cfFilterChain: Backend (PID 54) exited with no errors."
+D [22/Oct/2026:20:45:19 +0000] [Job 1] printer-state-reasons=none

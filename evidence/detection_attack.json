@@ -1,0 +1,65 @@
+[
+  {
+    "time": "2026-10-22T23:39:37",
+    "severity": "HIGH",
+    "rule": "UDP631_UNKNOWN_URI",
+    "src": "127.0.0.1",
+    "dst": "127.0.0.1",
+    "detail": "Browse packet advertises non-allowlisted URI host 'host.docker.internal'",
+    "packet": {}
+  },
+  {
+    "time": "2026-10-22T23:39:37",
+    "severity": "CRITICAL",
+    "rule": "IPP_PPD_INJECTION",
+    "src": "127.0.0.1",
+    "dst": "127.0.0.1",
+    "detail": "IPP traffic contains PPD injection directive (CVE-2024-47177) (TCP 8631->64558)",
+    "packet": {}
+  },
+  {
+    "time": "2026-10-22T23:39:37",
+    "severity": "CRITICAL",
+    "rule": "IPP_PPD_INJECTION",
+    "src": "127.0.0.1",
+    "dst": "127.0.0.1",
+    "detail": "IPP traffic contains PPD filter injection directive (TCP 8631->64558)",
+    "packet": {}
+  },
+  {
+    "time": "2026-10-22T23:39:37",
+    "severity": "CRITICAL",
+    "rule": "IPP_PPD_INJECTION",
+    "src": "127.0.0.1",
+    "dst": "127.0.0.1",
+    "detail": "IPP traffic contains Known injection attribute name (TCP 8631->64558)",
+    "packet": {}
+  },
+  {
+    "time": "2026-10-22T23:39:37",
+    "severity": "CRITICAL",
+    "rule": "IPP_PPD_INJECTION",
+    "src": "127.0.0.1",
+    "dst": "127.0.0.1",
+    "detail": "IPP traffic contains PPD injection directive (CVE-2024-47177) (TCP 8631->64559)",
+    "packet": {}
+  },
+  {
+    "time": "2026-10-22T23:39:37",
+    "severity": "CRITICAL",
+    "rule": "IPP_PPD_INJECTION",
+    "src": "127.0.0.1",
+    "dst": "127.0.0.1",
+    "detail": "IPP traffic contains PPD filter injection directive (TCP 8631->64559)",
+    "packet": {}
+  },
+  {
+    "time": "2026-10-22T23:39:37",
+    "severity": "CRITICAL",
+    "rule": "IPP_PPD_INJECTION",
+    "src": "127.0.0.1",
+    "dst": "127.0.0.1",
+    "detail": "IPP traffic contains Known injection attribute name (TCP 8631->64559)",
+    "packet": {}
+  }
+]

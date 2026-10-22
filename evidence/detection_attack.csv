@@ -1,0 +1,8 @@
+time,severity,rule,src,dst,detail,packet
+2026-10-22T23:39:37,HIGH,UDP631_UNKNOWN_URI,127.0.0.1,127.0.0.1,Browse packet advertises non-allowlisted URI host 'host.docker.internal',{}
+2026-10-22T23:39:37,CRITICAL,IPP_PPD_INJECTION,127.0.0.1,127.0.0.1,IPP traffic contains PPD injection directive (CVE-2024-47177) (TCP 8631->64558),{}
+2026-10-22T23:39:37,CRITICAL,IPP_PPD_INJECTION,127.0.0.1,127.0.0.1,IPP traffic contains PPD filter injection directive (TCP 8631->64558),{}
+2026-10-22T23:39:37,CRITICAL,IPP_PPD_INJECTION,127.0.0.1,127.0.0.1,IPP traffic contains Known injection attribute name (TCP 8631->64558),{}
+2026-10-22T23:39:37,CRITICAL,IPP_PPD_INJECTION,127.0.0.1,127.0.0.1,IPP traffic contains PPD injection directive (CVE-2024-47177) (TCP 8631->64559),{}
+2026-10-22T23:39:37,CRITICAL,IPP_PPD_INJECTION,127.0.0.1,127.0.0.1,IPP traffic contains PPD filter injection directive (TCP 8631->64559),{}
+2026-10-22T23:39:37,CRITICAL,IPP_PPD_INJECTION,127.0.0.1,127.0.0.1,IPP traffic contains Known injection attribute name (TCP 8631->64559),{}
